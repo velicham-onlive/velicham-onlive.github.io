@@ -1,0 +1,34 @@
+<rss version="2.0"
+     xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Velicham Quran Dars</title>
+    <googleplay:author>Velicham Onlive</googleplay:author>
+    <googleplay:image href="https://sajadhaja.github.io/images/techy.png"/>
+    <itunes:category text="Music" />    
+    <itunes:explicit>no</itunes:explicit>>
+    <itunes:image href="https://sajadhaja.github.io/images/techy.png"/>
+    <itunes:summary><![CDATA[<a href="https://sajadhaja.github.io/">Sajadh Techy</a>]]></itunes:summary>
+    <description>Sajadh Tips Aydin Podcast for techies to learn technologies like Java, Node JS, Microservices, Spring etc...</description>
+    <language>en-us</language>
+    <link>https://sajadhaja.github.io</link>
+    <item>
+      <title>Sajadh Tips Aydin Techy sample podcast 1</title>
+      <description>Sajadh Tips Aydin Testing podcast in google play and Itunes - 1</description>
+      <pubDate>Sun, 24 Feb 2019 12:00:00 GMT</pubDate>
+      <enclosure url="https://sajadhaja.github.io/audio/techy-sample-1.mp3"
+                 type="audio/mp3" length="443926"/>
+      <itunes:duration>00:27</itunes:duration>
+      <guid>vqd-podcast-intro</guid>
+    </item>
+    <item>
+      <title>സജാദ് ടിപ്‌സ് ടെക്കി സാംപിൾ പോഡ്‌കാസ്റ്  3</title>
+      <description>Sajadh Tips Aydin Testing podcast in google play and Itunes - 2</description>
+      <pubDate>Sun, 24 Feb 2019 12:00:00 GMT</pubDate>
+      <enclosure url="https://sajadhaja.github.io/audio/techy-sample-2.mp3"
+                 type="audio/mp3" length="725240 "/>
+      <itunes:duration>00:45</itunes:duration>
+      <guid>vqd-podcast-audio-001</guid>
+    </item>
+  </channel>
+</rss>
