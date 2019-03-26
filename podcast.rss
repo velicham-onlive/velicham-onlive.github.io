@@ -1,0 +1,107 @@
+<rss version="2.0"
+     xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Velicham Qur'an Dars Series</title>
+    <description></description>
+    <language>ml</language> <!-- two-letter ISO 639-1 code for Malayalam -->
+    <link>https://velicham-onlive.github.io</link>
+    <!-- google play configs -->
+    <googleplay:author>Velicham Onlive</googleplay:author>
+    <googleplay:image href="https://velicham-onlive.github.io/images/icons/ic_velicham.png"/>
+    <googleplay:category text="Religion &amp; Spirituality"/>
+    <!-- itunes configs -->
+    <itunes:author>Velicham Onlive</itunes:author>
+    <itunes:image href="https://velicham-onlive.github.io/images/icons/ic_velicham.png"/>
+    <itunes:category text="Religion &amp; Spirituality" />
+    <!-- podcats audio as items -->
+    <item>
+      <!-- BEGIN: chapter 0 - introduction -->
+      <!--  -->
+      <title>0. ആമുഖം - വെളിച്ചം ഖുർആൻ ദർസ്</title>
+      <description>ആമുഖം - വെളിച്ചം ഖുർആൻ ദർസ്</description>
+      <enclosure url="https://velicham-onlive.github.io/audio/0-intro/0.ആമുഖം - വെളിച്ചം ഖുർആൻ ദർസ്.mp3"
+                 type="audio/mp3" length="563"/>
+      <itunes:duration>563</itunes:duration>
+      <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
+      <guid>0-vqd-podcast-intro</guid>
+      <!--  -->
+      <title>1.ഖുർആൻ പഠനത്തിനു ഒരു ആമുഖം</title>
+      <description>ഖുർആൻ പഠനത്തിനു ഒരു ആമുഖം</description>
+      <enclosure url="https://velicham-onlive.github.io/audio/0-intro/1.ഖുർആൻ പഠനത്തിനു ഒരു ആമുഖം UPDATED.m4a"
+                 type="audio/mp3" length="614"/>
+      <itunes:duration>614</itunes:duration>
+      <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
+      <guid>1-vqd-podcast-intro</guid>
+      <!--  -->
+      <title>2.ഖുർആൻ ക്രോഡീകരണം</title>
+      <description>ഖുർആൻ ക്രോഡീകരണം</description>
+      <enclosure url="https://velicham-onlive.github.io/audio/0-intro/2.ഖുർആൻ ക്രോഡീകരണം UPDATED.m4a"
+                 type="audio/m4a" length="402"/>
+      <itunes:duration>402</itunes:duration>
+      <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
+      <guid>2-vqd-podcast-intro</guid>
+      <!--  -->
+      <title>3.ഖുർആൻ ഗ്രന്ഥാവിഷ്കാരം</title>
+      <description>ഖുർആൻ ഗ്രന്ഥാവിഷ്കാരം</description>
+      <enclosure url="https://velicham-onlive.github.io/audio/0-intro/3.ഖുർആൻ ഗ്രന്ഥാവിഷ്കാരം.m4a"
+                 type="audio/m4a" length="526"/>
+      <itunes:duration>526</itunes:duration>
+      <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
+      <guid>3-vqd-podcast-intro</guid>
+      <!--  -->
+      <title>4.ആയത്ത് എന്ത്</title>
+      <description>ആയത്ത് എന്നാൽ എന്ത്</description>
+      <enclosure url="https://velicham-onlive.github.io/audio/0-intro/4.ആയത്ത് എന്നാൽ എന്ത്.m4a"
+                 type="audio/m4a" length="399"/>
+      <itunes:duration>399</itunes:duration>
+      <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
+      <guid>4-vqd-podcast-intro</guid>
+      <!--  -->
+      <title>5.സൂറത്ത് എന്ത്</title>
+      <description>സൂറത്ത് എന്നാൽ എന്ത്</description>
+      <enclosure url="https://velicham-onlive.github.io/audio/0-intro/5.സൂറത്ത് എന്നാൽ എന്ത്.m4a"
+                 type="audio/m4a" length="476"/>
+      <itunes:duration>476</itunes:duration>
+      <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
+      <guid>5-vqd-podcast-intro</guid>
+      <!--  -->
+      <title>6.സൂറകളുടെ നാമകരണം</title>
+      <description>സൂറകളുടെ നാമകരണം</description>
+      <enclosure url="https://velicham-onlive.github.io/audio/0-intro/6.സൂറകളുടെ നാമകരണം.m4a"
+                 type="audio/m4a" length="547"/>
+      <itunes:duration>547</itunes:duration>
+      <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
+      <guid>6-vqd-podcast-intro</guid>
+      <!--  -->
+      <title>7.ഖുർആനെ സമീപിക്കുമ്പോൾ</title>
+      <description>ഖുർആനെ സമീപിക്കുമ്പോൾ</description>
+      <enclosure url="https://velicham-onlive.github.io/audio/0-intro/7.ഖുർആനെ സമീപിക്കുമ്പോൾ.m4a"
+                 type="audio/m4a" length="455"/>
+      <itunes:duration>455</itunes:duration>
+      <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
+      <guid>7-vqd-podcast-intro</guid>
+      <!--  -->
+      <title>8.അറബി അക്ഷരങ്ങൾ</title>
+      <description>അറബി അക്ഷരങ്ങൾ</description>
+      <enclosure url="https://velicham-onlive.github.io/audio/0-intro/8.അറബി അക്ഷരങ്ങൾ.m4a"
+                 type="audio/m4a" length="403"/>
+      <itunes:duration>403</itunes:duration>
+      <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
+      <guid>8-vqd-podcast-intro</guid>
+      <!--  -->
+      <title>9.തജ് വീദ് (ഖുർആൻ പാരായണ നിയമങ്ങൾ)</title>
+      <description>തജ് വീദ് (ഖുർആൻ പാരായണ നിയമങ്ങൾ)</description>
+      <enclosure url="https://velicham-onlive.github.io/audio/0-intro/9.തജ് വീദ് (ഖുർആൻ പാരായണ നിയമങ്ങൾ).m4a"
+                 type="audio/m4a" length="495"/>
+      <itunes:duration>495</itunes:duration>
+      <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
+      <guid>9-vqd-podcast-intro</guid>
+      <!-- END: chapter 0 - introduction -->
+      <!-- ==================================================================================== -->
+      <!-- BEGIN: chapter 1 - fathiha -->
+      <!--  -->
+      <!-- END: chapter 1 - fathiha -->
+    </item>
+  </channel>
+</rss>
