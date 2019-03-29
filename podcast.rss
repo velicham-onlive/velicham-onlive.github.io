@@ -1,10 +1,11 @@
-<rss version="2.0"
-     xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
-     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" 
+  xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" 
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Velicham Qur'an Dars Series</title>
-    <description></description>
-    <language>ml</language> <!-- two-letter ISO 639-1 code for Malayalam -->
+    <description>ജനപ്രിയ മാധ്യമങ്ങളിലൂടെ പൊതു സമൂഹത്തിലേക്ക് ഖുർആൻ വെളിച്ചം പകരുക എന്ന ലക്ഷ്യത്തോടെ മുന്നോട്ട് പോവുന്ന കൂട്ടായ്മയാണ് വെളിച്ചം ഓൺ ലൈവ്. ഉസ്താദ് അബ്ദുൽ വാരിസിന്റെ കീഴിൽ, ആയിരക്കണക്കിന് വിദ്യാർത്ഥികൾ പ്രയോജനപ്പെടുത്തി കൊണ്ടിരിക്കുന്ന ഓഡിയോ പഠന ക്ലാസുകളാണ് ഈ പോഡ്കാസ്റ്റ് സീരീസിൽ ഉൾക്കൊള്ളിച്ചിരിക്കുന്നത്.</description>
+    <language>ml</language>    <!-- two-letter ISO 639-1 code for Malayalam -->
     <link>https://velicham-onlive.github.io</link>
     <!-- google play configs -->
     <googleplay:author>Velicham Onlive</googleplay:author>
@@ -15,204 +16,226 @@
     <itunes:image href="https://velicham-onlive.github.io/images/icons/ic_velicham.png"/>
     <itunes:category text="Religion &amp; Spirituality" />
     <!-- podcats audio as items -->
+    <!-- ==================================================================================== -->
+    <!-- BEGIN: chapter 0 - introduction -->
     <item>
-      <!-- BEGIN: chapter 0 - introduction -->
-      <!--  -->
       <title>0. ആമുഖം - വെളിച്ചം ഖുർആൻ ദർസ്</title>
       <description>ആമുഖം - വെളിച്ചം ഖുർആൻ ദർസ്</description>
-      <enclosure url="https://velicham-onlive.github.io/audio/0-intro/0.ആമുഖം - വെളിച്ചം ഖുർആൻ ദർസ്.mp3"
-                 type="audio/mp3" length="563"/>
+      <enclosure url="https://velicham-onlive.github.io/audios/0-intro/0.ആമുഖം%20-%20വെളിച്ചം%20ഖുർആൻ%20ദർസ്.mp3" type="audio/mp3" length="563"/>
       <itunes:duration>563</itunes:duration>
       <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
       <guid>0-vqd-podcast-intro</guid>
-      <!--  -->
-      <title>1.ഖുർആൻ പഠനത്തിനു ഒരു ആമുഖം</title>
+    </item>
+    <!--  -->
+    <item>
+      <title>1. ഖുർആൻ പഠനത്തിനു ഒരു ആമുഖം</title>
       <description>ഖുർആൻ പഠനത്തിനു ഒരു ആമുഖം</description>
-      <enclosure url="https://velicham-onlive.github.io/audio/0-intro/1.ഖുർആൻ പഠനത്തിനു ഒരു ആമുഖം UPDATED.m4a"
-                 type="audio/mp3" length="614"/>
+      <enclosure url="https://velicham-onlive.github.io/audios/0-intro/1.ഖുർആൻ%20പഠനത്തിനു%20ഒരു%20ആമുഖം%20UPDATED.m4a" type="audio/mp3" length="614"/>
       <itunes:duration>614</itunes:duration>
       <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
       <guid>1-vqd-podcast-intro</guid>
-      <!--  -->
-      <title>2.ഖുർആൻ ക്രോഡീകരണം</title>
+    </item>
+    <!--  -->
+    <item>
+      <title>2. ഖുർആൻ ക്രോഡീകരണം</title>
       <description>ഖുർആൻ ക്രോഡീകരണം</description>
-      <enclosure url="https://velicham-onlive.github.io/audio/0-intro/2.ഖുർആൻ ക്രോഡീകരണം UPDATED.m4a"
-                 type="audio/m4a" length="402"/>
+      <enclosure url="https://velicham-onlive.github.io/audios/0-intro/2.ഖുർആൻ%20ക്രോഡീകരണം%20UPDATED.m4a" type="audio/m4a" length="402"/>
       <itunes:duration>402</itunes:duration>
       <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
       <guid>2-vqd-podcast-intro</guid>
-      <!--  -->
-      <title>3.ഖുർആൻ ഗ്രന്ഥാവിഷ്കാരം</title>
+    </item>
+    <!--  -->
+    <item>
+      <title>3. ഖുർആൻ ഗ്രന്ഥാവിഷ്കാരം</title>
       <description>ഖുർആൻ ഗ്രന്ഥാവിഷ്കാരം</description>
-      <enclosure url="https://velicham-onlive.github.io/audio/0-intro/3.ഖുർആൻ ഗ്രന്ഥാവിഷ്കാരം.m4a"
-                 type="audio/m4a" length="526"/>
+      <enclosure url="https://velicham-onlive.github.io/audios/0-intro/3.ഖുർആൻ%20ഗ്രന്ഥാവിഷ്കാരം.m4a" type="audio/m4a" length="526"/>
       <itunes:duration>526</itunes:duration>
       <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
       <guid>3-vqd-podcast-intro</guid>
-      <!--  -->
-      <title>4.ആയത്ത് എന്ത്</title>
+    </item>
+    <!--  -->
+    <item>
+      <title>4. ആയത്ത് എന്ത്</title>
       <description>ആയത്ത് എന്നാൽ എന്ത്</description>
-      <enclosure url="https://velicham-onlive.github.io/audio/0-intro/4.ആയത്ത് എന്നാൽ എന്ത്.m4a"
-                 type="audio/m4a" length="399"/>
+      <enclosure url="https://velicham-onlive.github.io/audios/0-intro/4.ആയത്ത്%20എന്നാൽ%20എന്ത്.m4a" type="audio/m4a" length="399"/>
       <itunes:duration>399</itunes:duration>
       <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
       <guid>4-vqd-podcast-intro</guid>
-      <!--  -->
-      <title>5.സൂറത്ത് എന്ത്</title>
+    </item>
+    <!--  -->
+    <item>
+      <title>5. സൂറത്ത് എന്ത്</title>
       <description>സൂറത്ത് എന്നാൽ എന്ത്</description>
-      <enclosure url="https://velicham-onlive.github.io/audio/0-intro/5.സൂറത്ത് എന്നാൽ എന്ത്.m4a"
-                 type="audio/m4a" length="476"/>
+      <enclosure url="https://velicham-onlive.github.io/audios/0-intro/5.സൂറത്ത്%20എന്നാൽ%20എന്ത്.m4a" type="audio/m4a" length="476"/>
       <itunes:duration>476</itunes:duration>
       <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
       <guid>5-vqd-podcast-intro</guid>
-      <!--  -->
-      <title>6.സൂറകളുടെ നാമകരണം</title>
+    </item>
+    <!--  -->
+    <item>
+      <title>6. സൂറകളുടെ നാമകരണം</title>
       <description>സൂറകളുടെ നാമകരണം</description>
-      <enclosure url="https://velicham-onlive.github.io/audio/0-intro/6.സൂറകളുടെ നാമകരണം.m4a"
-                 type="audio/m4a" length="547"/>
+      <enclosure url="https://velicham-onlive.github.io/audios/0-intro/6.സൂറകളുടെ%20നാമകരണം.m4a" type="audio/m4a" length="547"/>
       <itunes:duration>547</itunes:duration>
       <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
       <guid>6-vqd-podcast-intro</guid>
-      <!--  -->
-      <title>7.ഖുർആനെ സമീപിക്കുമ്പോൾ</title>
+    </item>
+    <!--  -->
+    <item>
+      <title>7. ഖുർആനെ സമീപിക്കുമ്പോൾ</title>
       <description>ഖുർആനെ സമീപിക്കുമ്പോൾ</description>
-      <enclosure url="https://velicham-onlive.github.io/audio/0-intro/7.ഖുർആനെ സമീപിക്കുമ്പോൾ.m4a"
-                 type="audio/m4a" length="455"/>
+      <enclosure url="https://velicham-onlive.github.io/audios/0-intro/7.ഖുർആനെ%20സമീപിക്കുമ്പോൾ.m4a" type="audio/m4a" length="455"/>
       <itunes:duration>455</itunes:duration>
       <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
       <guid>7-vqd-podcast-intro</guid>
-      <!--  -->
-      <title>8.അറബി അക്ഷരങ്ങൾ</title>
+    </item>
+    <!--  -->
+    <item>
+      <title>8. അറബി അക്ഷരങ്ങൾ</title>
       <description>അറബി അക്ഷരങ്ങൾ</description>
-      <enclosure url="https://velicham-onlive.github.io/audio/0-intro/8.അറബി അക്ഷരങ്ങൾ.m4a"
-                 type="audio/m4a" length="403"/>
+      <enclosure url="https://velicham-onlive.github.io/audios/0-intro/8.അറബി%20അക്ഷരങ്ങൾ.m4a" type="audio/m4a" length="403"/>
       <itunes:duration>403</itunes:duration>
       <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
       <guid>8-vqd-podcast-intro</guid>
-      <!--  -->
-      <title>9.തജ് വീദ് (ഖുർആൻ പാരായണ നിയമങ്ങൾ)</title>
+    </item>
+    <!--  -->
+    <item>
+      <title>9. തജ് വീദ് (ഖുർആൻ പാരായണ നിയമങ്ങൾ)</title>
       <description>തജ് വീദ് (ഖുർആൻ പാരായണ നിയമങ്ങൾ)</description>
-      <enclosure url="https://velicham-onlive.github.io/audio/0-intro/9.തജ് വീദ് (ഖുർആൻ പാരായണ നിയമങ്ങൾ).m4a"
-                 type="audio/m4a" length="495"/>
+      <enclosure url="https://velicham-onlive.github.io/audios/0-intro/9.തജ്%20വീദ്%20(ഖുർആൻ%20പാരായണ%20നിയമങ്ങൾ).m4a" type="audio/m4a" length="495"/>
       <itunes:duration>495</itunes:duration>
       <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
       <guid>9-vqd-podcast-intro</guid>
-      <!-- END: chapter 0 - introduction -->
-      <!-- ==================================================================================== -->
-      <!-- BEGIN: chapter 1 - fathiha -->
-      <!--  -->
+    </item>
+    <!-- END: chapter 0 - introduction -->
+    <!-- ==================================================================================== -->
+    <!-- BEGIN: chapter 1 - fathiha -->
+    <item>
       <title>10. സൂറ അൽ ഫാതിഹ - ഇസ്തിആദത്ത് (രക്ഷ തേടൽ)</title>
       <description>സൂറ അൽ ഫാതിഹ - ഇസ്തിആദത്ത് (രക്ഷ തേടൽ)</description>
-      <enclosure url="https://velicham-onlive.github.io/audio/1-fathiha/10. സൂറ അൽ ഫാതിഹ - ഇസ്തിആദത്ത് (രക്ഷ തേടൽ).m4a"
-                 type="audio/m4a" length="398"/>
+      <enclosure url="https://velicham-onlive.github.io/audios/1-fathiha/10.%20സൂറ%20അൽ%20ഫാതിഹ%20-%20ഇസ്തിആദത്ത്%20(രക്ഷ%20തേടൽ).m4a" type="audio/m4a" length="398"/>
       <itunes:duration>398</itunes:duration>
       <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
       <guid>1-vqd-podcast-unit001</guid>
-      <!--  -->
+    </item>
+    <!--  -->
+    <item>
       <title>11. സൂറ അൽ ഫാതിഹ - 'അഊദു..' പാരായണ രീതി, നിയമങ്ങൾ</title>
       <description>സൂറ അൽ ഫാതിഹ - 'അഊദു..' പാരായണ രീതി, നിയമങ്ങൾ</description>
-      <enclosure url="https://velicham-onlive.github.io/audio/1-fathiha/11. സൂറ അൽ ഫാതിഹ - 'അഊദു..' പാരായണ രീതി, നിയമങ്ങൾ.m4a"
-                 type="audio/m4a" length="427"/>
+      <enclosure url="https://velicham-onlive.github.io/audios/1-fathiha/11.%20സൂറ%20അൽ%20ഫാതിഹ%20-%20'അഊദു..'%20പാരായണ%20രീതി,%20നിയമങ്ങൾ.m4a" type="audio/m4a" length="427"/>
       <itunes:duration>427</itunes:duration>
       <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
       <guid>2-vqd-podcast-unit001</guid>
-      <!--  -->
+    </item>
+    <!--  -->
+    <item>
       <title>12. സൂറ അൽ ഫാതിഹ - ബസ്മല (ബിസ്മി)</title>
       <description>സൂറ അൽ ഫാതിഹ - ബസ്മല (ബിസ്മി)</description>
-      <enclosure url="https://velicham-onlive.github.io/audio/1-fathiha/12. സൂറ അൽ ഫാതിഹ - ബസ്മല (ബിസ്മി).m4a"
-                 type="audio/m4a" length="697"/>
+      <enclosure url="https://velicham-onlive.github.io/audios/1-fathiha/12.%20സൂറ%20അൽ%20ഫാതിഹ%20-%20ബസ്മല%20(ബിസ്മി).m4a" type="audio/m4a" length="697"/>
       <itunes:duration>697</itunes:duration>
       <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
       <guid>3-vqd-podcast-unit001</guid>
-      <!--  -->
+    </item>
+    <!--  -->
+    <item>
       <title>13. ബിസ്മിയുടെ പാരായണം</title>
       <description>ബിസ്മിയുടെ പാരായണം</description>
-      <enclosure url="https://velicham-onlive.github.io/audio/1-fathiha/13. ബിസ്മിയുടെ പാരായണം.m4a"
-                 type="audio/m4a" length="610"/>
+      <enclosure url="https://velicham-onlive.github.io/audios/1-fathiha/13.%20ബിസ്മിയുടെ%20പാരായണം.m4a" type="audio/m4a" length="610"/>
       <itunes:duration>610</itunes:duration>
       <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
       <guid>4-vqd-podcast-unit001</guid>
-      <!--  -->
+    </item>
+    <!--  -->
+    <item>
       <title>14. ഫാതിഹയുടെ നാമകരണം (നാമങ്ങൾ)</title>
       <description>ഫാതിഹയുടെ നാമകരണം (നാമങ്ങൾ)</description>
-      <enclosure url="https://velicham-onlive.github.io/audio/1-fathiha/14. ഫാതിഹയുടെ നാമകരണം (നാമങ്ങൾ).m4a"
-                 type="audio/m4a" length="557"/>
+      <enclosure url="https://velicham-onlive.github.io/audios/1-fathiha/14.%20ഫാതിഹയുടെ%20നാമകരണം%20(നാമങ്ങൾ).m4a" type="audio/m4a" length="557"/>
       <itunes:duration>557</itunes:duration>
       <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
       <guid>5-vqd-podcast-unit001</guid>
-      <!--  -->
+    </item>
+    <!--  -->
+    <item>
       <title>15. ഫാതിഹയുടെ പാരായണം</title>
       <description>15. ഫാതിഹയുടെ പാരായണം</description>
-      <enclosure url="https://velicham-onlive.github.io/audio/1-fathiha/15. ഫാതിഹയുടെ പാരായണം.m4a"
-                 type="audio/m4a" length="594"/>
+      <enclosure url="https://velicham-onlive.github.io/audios/1-fathiha/15.%20ഫാതിഹയുടെ%20പാരായണം.m4a" type="audio/m4a" length="594"/>
       <itunes:duration>594</itunes:duration>
       <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
       <guid>6-vqd-podcast-unit001</guid>
-      <!--  -->
+    </item>
+    <!--  -->
+    <item>
       <title>16. സൂറ അൽ ഫാതിഹ - ആയത്ത് 2 ആൽഹംദുലില്ലാഹ്</title>
       <description>സൂറ അൽ ഫാതിഹ - ആയത്ത് 2 ആൽഹംദുലില്ലാഹ്</description>
-      <enclosure url="https://velicham-onlive.github.io/audio/1-fathiha/16. സൂറ അൽ ഫാതിഹ - ആയത്ത് 2 ആൽഹംദുലില്ലാഹ്.m4a"
-                 type="audio/m4a" length="683"/>
+      <enclosure url="https://velicham-onlive.github.io/audios/1-fathiha/16.%20സൂറ%20അൽ%20ഫാതിഹ%20-%20ആയത്ത്%202%20ആൽഹംദുലില്ലാഹ്.m4a" type="audio/m4a" length="683"/>
       <itunes:duration>683</itunes:duration>
       <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
       <guid>7-vqd-podcast-unit001</guid>
-      <!--  -->
+    </item>
+    <!--  -->
+    <item>
       <title>17. സൂറ അൽ ഫാതിഹ - ആയത്ത് 2 റബ്ബിൽ ആലമീൻ</title>
       <description>സൂറ അൽ ഫാതിഹ - ആയത്ത് 2 റബ്ബിൽ ആലമീൻ</description>
-      <enclosure url="https://velicham-onlive.github.io/audio/1-fathiha/17. സൂറ അൽ ഫാതിഹ - ആയത്ത് 2 റബ്ബിൽ ആലമീൻ.m4a"
-                 type="audio/m4a" length="481"/>
+      <enclosure url="https://velicham-onlive.github.io/audios/1-fathiha/17.%20സൂറ%20അൽ%20ഫാതിഹ%20-%20ആയത്ത്%202%20റബ്ബിൽ%20ആലമീൻ.m4a" type="audio/m4a" length="481"/>
       <itunes:duration>481</itunes:duration>
       <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
       <guid>8-vqd-podcast-unit001</guid>
-      <!--  -->
+    </item>
+    <!--  -->
+    <item>
       <title>18. സൂറ അൽ ഫാതിഹ - ആയത്ത് 3</title>
       <description>സൂറ അൽ ഫാതിഹ - ആയത്ത് 3</description>
-      <enclosure url="https://velicham-onlive.github.io/audio/1-fathiha/18. സൂറ അൽ ഫാതിഹ - ആയത്ത് 3.m4a"
-                 type="audio/m4a" length="621"/>
+      <enclosure url="https://velicham-onlive.github.io/audios/1-fathiha/18.%20സൂറ%20അൽ%20ഫാതിഹ%20-%20ആയത്ത്%203.m4a" type="audio/m4a" length="621"/>
       <itunes:duration>621</itunes:duration>
       <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
       <guid>9-vqd-podcast-unit001</guid>
-      <!--  -->
+    </item>
+    <!--  -->
+    <item>
       <title>19. സൂറ അൽ ഫാതിഹ - ആയത്ത് 4</title>
       <description>സൂറ അൽ ഫാതിഹ - ആയത്ത് 4</description>
-      <enclosure url="https://velicham-onlive.github.io/audio/1-fathiha/19. സൂറ അൽ ഫാതിഹ - ആയത്ത് 4.m4a"
-                 type="audio/m4a" length="674"/>
+      <enclosure url="https://velicham-onlive.github.io/audios/1-fathiha/19.%20സൂറ%20അൽ%20ഫാതിഹ%20-%20ആയത്ത്%204.m4a" type="audio/m4a" length="674"/>
       <itunes:duration>674</itunes:duration>
       <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
       <guid>10-vqd-podcast-unit001</guid>
-      <!--  -->
+    </item>
+    <!--  -->
+    <item>
       <title>20. സൂറ അൽ ഫാതിഹ - ആയത്ത് 5 - ഇയ്യാക നഅ'ബുദു</title>
       <description>സൂറ അൽ ഫാതിഹ - ആയത്ത് 5 - ഇയ്യാക നഅ'ബുദു</description>
-      <enclosure url="https://velicham-onlive.github.io/audio/1-fathiha/20. സൂറ അൽ ഫാതിഹ - ആയത്ത് 5 - ഇയ്യാക നഅ'ബുദു.m4a"
-                 type="audio/m4a" length="810"/>
+      <enclosure url="https://velicham-onlive.github.io/audios/1-fathiha/20.%20സൂറ%20അൽ%20ഫാതിഹ%20-%20ആയത്ത്%205%20-%20ഇയ്യാക%20നഅ'ബുദു.m4a" type="audio/m4a" length="810"/>
       <itunes:duration>810</itunes:duration>
       <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
       <guid>11-vqd-podcast-unit001</guid>
-      <!--  -->
+    </item>
+    <!--  -->
+    <item>
       <title>21. സൂറ അൽ ഫാതിഹ - ആയത്ത് 5 - വ ഇയ്യാക നസ്ഥഈൻ</title>
       <description>സൂറ അൽ ഫാതിഹ - ആയത്ത് 5 - വ ഇയ്യാക നസ്ഥഈൻ</description>
-      <enclosure url="https://velicham-onlive.github.io/audio/1-fathiha/21. സൂറ അൽ ഫാതിഹ - ആയത്ത് 5 - വ ഇയ്യാക നസ്ഥഈൻ.m4a"
-                 type="audio/m4a" length="833"/>
+      <enclosure url="https://velicham-onlive.github.io/audios/1-fathiha/21.%20സൂറ%20അൽ%20ഫാതിഹ%20-%20ആയത്ത്%205%20-%20വ%20ഇയ്യാക%20നസ്ഥഈൻ.m4a" type="audio/m4a" length="833"/>
       <itunes:duration>833</itunes:duration>
       <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
       <guid>12-vqd-podcast-unit001</guid>
-      <!--  -->
+    </item>
+    <!--  -->
+    <item>
       <title>22. സൂറ അൽ ഫാതിഹ - ആയത്ത് 6</title>
       <description>സൂറ അൽ ഫാതിഹ - ആയത്ത് 6</description>
-      <enclosure url="https://velicham-onlive.github.io/audio/1-fathiha/22. സൂറ അൽ ഫാതിഹ - ആയത്ത് 6.m4a"
-                 type="audio/m4a" length="638"/>
+      <enclosure url="https://velicham-onlive.github.io/audios/1-fathiha/22.%20സൂറ%20അൽ%20ഫാതിഹ%20-%20ആയത്ത്%206.m4a" type="audio/m4a" length="638"/>
       <itunes:duration>638</itunes:duration>
       <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
       <guid>13-vqd-podcast-unit001</guid>
-      <!--  -->
+    </item>
+    <!--  -->
+    <item>
       <title>23. സൂറ അൽ ഫാതിഹ - ആയത്ത് 7</title>
       <description>സൂറ അൽ ഫാതിഹ - ആയത്ത് 7</description>
-      <enclosure url="https://velicham-onlive.github.io/audio/1-fathiha/23. സൂറ അൽ ഫാതിഹ - ആയത്ത് 7.m4a"
-                 type="audio/m4a" length="820"/>
+      <enclosure url="https://velicham-onlive.github.io/audios/1-fathiha/23.%20സൂറ%20അൽ%20ഫാതിഹ%20-%20ആയത്ത്%207.m4a" type="audio/m4a" length="820"/>
       <itunes:duration>820</itunes:duration>
       <pubDate>Wednesday, 27 Mar ‎2019 ‏‎12:00:00 GMT</pubDate>
       <guid>14-vqd-podcast-unit001</guid>
-      <!-- END: chapter 1 - fathiha -->
     </item>
+    <!-- END: chapter 1 - fathiha -->
+    <!-- ==================================================================================== -->
   </channel>
 </rss>
