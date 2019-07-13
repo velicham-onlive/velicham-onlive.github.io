@@ -20,12 +20,13 @@ We opted the open-source platform to welcome your thoughts on the projects. If y
 Anyone who are willing to volunteer can contribute in this effort, please refer our [Code of Conduct](https://github.com/velicham-onlive/velicham-onlive.github.io/blob/master/CODE_OF_CONDUCT.md).
 We use Git as VCS and follow [GitHubFlow](https://guides.github.com/introduction/flow/) process model for review and branch management.
 
-#### How to contribute:
+#### How to contribute: ## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/velicham-onlive/velicham-onlive.github.io/issues)
+
 - Take up an issue/feature from the [issues](https://github.com/velicham-onlive/velicham-onlive.github.io/issues) by assigning self.
 - Commit intended code changes to relevant/new branch.
 - Once completed, create Pull-request and assign reviewers.
 
-## What to commit:
+#### What to commit:
 As you might notice, the podcast episodes are already layed out and it's available in iTunes, Google and other podcasts engines. Need volunterely contribution in introducing new episodes in the feed file ([podcast.rss](https://github.com/velicham-onlive/velicham-onlive.github.io/blob/master/podcast.rss)) by appending in the below format.
 
 ```xml
@@ -47,5 +48,5 @@ As you might notice, the podcast episodes are already layed out and it's availab
 - **&lt;enclosure&gt;** : points to the fully-qualified URL of the episode audio file with audio type and audio length in bytes.
 - **&lt;itunes:duration&gt;** : audio duration in mm:ss format.
 - **&lt;pubDate&gt;** : publication date of the episode.
-- **&lt;guid&gt;** : A permanently-assigned, case-sensitive Globally Unique Identifier for a podcast episode. Should be unique and unchanging over time, scoped to this podcast. Since it has to permanent, we 
+- **&lt;guid&gt;** : A permanently-assigned, case-sensitive Globally Unique Identifier for a podcast episode. Should be unique and unchanging over time, scoped to this podcast. GUIDs are compared to indicate which episodes are new.
   
