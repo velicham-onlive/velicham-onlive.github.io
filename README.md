@@ -12,7 +12,7 @@ The Google podcast [guide](https://developers.google.com/search/docs/data-types/
 #### The implementation approach (proposal):
 As per documentation the audio files (the podcast episodes) to be hosted in public servers, we opted GitHub, with certain tags and an index page to reach out by Googlebot or similar ones. The index.html points to the feeds(\*.rss) file where all podcasts are described with possible details, in turn, it points to an absolute path of the audio files.
 
-## Contributing
+## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/velicham-onlive/velicham-onlive.github.io/issues)
 
 We opted the open-source platform to welcome your thoughts on the projects. If you'd like to contribute, please take a look at the [issues](https://github.com/velicham-onlive/velicham-onlive.github.io/issues) and create one if your idea/issue is not found in the list.
 
@@ -20,7 +20,7 @@ We opted the open-source platform to welcome your thoughts on the projects. If y
 Anyone who are willing to volunteer can contribute in this effort, please refer our [Code of Conduct](https://github.com/velicham-onlive/velicham-onlive.github.io/blob/master/CODE_OF_CONDUCT.md).
 We use Git as VCS and follow [GitHubFlow](https://guides.github.com/introduction/flow/) process model for review and branch management.
 
-#### How to contribute: ## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/velicham-onlive/velicham-onlive.github.io/issues)
+#### How to contribute:
 
 - Take up an issue/feature from the [issues](https://github.com/velicham-onlive/velicham-onlive.github.io/issues) by assigning self.
 - Commit intended code changes to relevant/new branch.
