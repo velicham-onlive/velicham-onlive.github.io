@@ -12,7 +12,7 @@ The Google podcast [guide](https://developers.google.com/search/docs/data-types/
 #### The implementation approach (proposal):
 As per documentation the audio files (the podcast episodes) to be hosted in public servers, we opted GitHub, with certain tags and an index page to reach out by Googlebot or similar ones. The index.html points to the feeds(\*.rss) file where all podcasts are described with possible details, in turn, it points to an absolute path of the audio files.
 
-## Contributing
+## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/velicham-onlive/velicham-onlive.github.io/issues)
 
 We opted the open-source platform to welcome your thoughts on the projects. If you'd like to contribute, please take a look at the [issues](https://github.com/velicham-onlive/velicham-onlive.github.io/issues) and create one if your idea/issue is not found in the list.
 
@@ -21,11 +21,12 @@ Anyone who are willing to volunteer can contribute in this effort, please refer 
 We use Git as VCS and follow [GitHubFlow](https://guides.github.com/introduction/flow/) process model for review and branch management.
 
 #### How to contribute:
+
 - Take up an issue/feature from the [issues](https://github.com/velicham-onlive/velicham-onlive.github.io/issues) by assigning self.
 - Commit intended code changes to relevant/new branch.
 - Once completed, create Pull-request and assign reviewers.
 
-## What to commit:
+#### What to commit:
 As you might notice, the podcast episodes are already layed out and it's available in iTunes, Google and other podcasts engines. Need volunterely contribution in introducing new episodes in the feed file ([podcast.rss](https://github.com/velicham-onlive/velicham-onlive.github.io/blob/master/podcast.rss)) by appending in the below format.
 
 ```xml
@@ -47,5 +48,5 @@ As you might notice, the podcast episodes are already layed out and it's availab
 - **&lt;enclosure&gt;** : points to the fully-qualified URL of the episode audio file with audio type and audio length in bytes.
 - **&lt;itunes:duration&gt;** : audio duration in mm:ss format.
 - **&lt;pubDate&gt;** : publication date of the episode.
-- **&lt;guid&gt;** : A permanently-assigned, case-sensitive Globally Unique Identifier for a podcast episode. Should be unique and unchanging over time, scoped to this podcast. Since it has to permanent, we 
+- **&lt;guid&gt;** : A permanently-assigned, case-sensitive Globally Unique Identifier for a podcast episode. Should be unique and unchanging over time, scoped to this podcast. GUIDs are compared to indicate which episodes are new.
   
