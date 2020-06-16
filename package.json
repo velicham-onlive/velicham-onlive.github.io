@@ -1,0 +1,26 @@
+{
+  "name": "velicham-onlive.github.io",
+  "version": "1.0.0",
+  "description": "Velicham Onlive is a Quran learning platform started as WhatsApp group",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajadhaja/velicham-onlive.github.io.git"
+  },
+  "keywords": [
+    "quran",
+    "learning"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sajadhaja/velicham-onlive.github.io/issues"
+  },
+  "homepage": "https://github.com/sajadhaja/velicham-onlive.github.io#readme",
+  "devDependencies": {
+    "eslint-plugin-html": "^6.0.2"
+  }
+}
