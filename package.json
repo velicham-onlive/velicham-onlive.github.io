@@ -4,7 +4,8 @@
   "description": "Velicham Onlive is a Quran learning platform started as WhatsApp group",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --debug  --config ./config/.eslintrc.json index.html"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/sajadhaja/velicham-onlive.github.io#readme",
   "devDependencies": {
+    "eslint": "^7.2.0",
     "eslint-plugin-html": "^6.0.2"
   }
 }

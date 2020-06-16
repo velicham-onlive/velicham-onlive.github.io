@@ -6,6 +6,7 @@
     "sourceType": "module"
   },
   "settings": {
+    "ignorePattern": "./node_modules/**",
     "html/indent": "tab", // indentation is one tab at the beginning of the line.
     "html/report-bad-indent": "error"
   }

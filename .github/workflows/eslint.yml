@@ -19,12 +19,15 @@ jobs:
         node-version: [14.x]
 
     steps:
-    - name: ESLint checker
-      uses: ninosaurus/eslint-check@v5.3.1
+    - uses: actions/checkout@v1
       with:
-        # github security stoken
-        repo-token: ${{secrets.GITHUB_TOKEN}}
-        # relative directory to node_modules
-        custom-directory: "./"
-        # relative path to eslint config file eg. .eslintrc
-        eslint-config-path: "./config/.eslintrc.json"
+        fetch-depth: 1
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:	
+          node-version: ${{ matrix.node-version }
+      working-directory: ./
+    - run: npm i --ignore-scripts 
+    - name: ES Lint test
+    - run: npm run lint
