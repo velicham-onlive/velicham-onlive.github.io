@@ -25,4 +25,12 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm install
-    - run: npm run build --if-present
+    - name: ESLint checker
+      uses: ninosaurus/eslint-check@v5.3.1
+      with:
+        # github security stoken
+        repo-token: ${{secrets.GITHUB_TOKEN}}
+        # relative directory to node_modules
+        custom-directory: "./"
+        # relative path to eslint config file eg. .eslintrc
+        eslint-config-path: ".eslintrc.json"
