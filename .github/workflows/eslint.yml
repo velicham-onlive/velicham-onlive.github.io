@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x, 14.x]
+        node-version: [14.x]
 
     steps:
     - uses: actions/checkout@v2
@@ -33,4 +33,4 @@ jobs:
         # relative directory to node_modules
         custom-directory: "./"
         # relative path to eslint config file eg. .eslintrc
-        eslint-config-path: ".eslintrc.json"
+        eslint-config-path: "./config/.eslintrc.json"
